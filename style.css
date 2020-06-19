@@ -9,11 +9,11 @@
 }
 
 .bg-black{
-    background-color: black;
+    background-color: rgb(19, 49, 19);
 }
 .bg-gray{
-    background-color: gray;
-    color: white;
+    background-color: rgb(218, 216, 216);
+    
 }
 
 .font{
@@ -31,4 +31,8 @@
     .noText{
         display: none;
     }
+}
+
+.shadow{
+    box-shadow: black 10px 5px 8px;
 }
