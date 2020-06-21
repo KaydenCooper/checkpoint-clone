@@ -16,14 +16,17 @@
     
 }
 
+.shadow{
+    box-shadow: black 10px 5px 8px;
+}
+
 .font{
     font-family: 'Boogaloo', cursive;
 }
 
 @media only screen and (max-width: 500px) {
-    .order{
-    
-     display: none;
+    .position{
+        display: none;
     }
 }
 
@@ -33,6 +36,3 @@
     }
 }
 
-.shadow{
-    box-shadow: black 10px 5px 8px;
-}
