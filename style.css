@@ -24,9 +24,17 @@
     font-family: 'Boogaloo', cursive;
 }
 
+@media only screen and (min-width: 500px) {
+    .position{
+        position: absolute;
+        bottom: -171px; 
+        left: 12px;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     .position{
-        display: none;
+        position: relative;
     }
 }
 
